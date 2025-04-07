@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 07.04.2025 21:43:45
-// Design Name: 
-// Module Name: cordic_sin_cos
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module cordic_sin_cos (
     input clk,
     input rst,
@@ -39,8 +18,8 @@ module cordic_sin_cos (
     function signed [15:0] atan_table;
         input [4:0] index;
         case(index)
-            0: atan_table = 16'd25735;  // 45°
-            1: atan_table = 16'd15192;  // 26.56°
+            0: atan_table = 16'd25735;  // 45Â°
+            1: atan_table = 16'd15192;  // 26.56Â°
             2: atan_table = 16'd8027;
             3: atan_table = 16'd4074;
             4: atan_table = 16'd2045;
