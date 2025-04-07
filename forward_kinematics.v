@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Engineer: Tarang Srivas
-// 
-// Create Date: 16.03.2025 00:02:54
-// Design Name: 
-// Module Name: forward_kinematics
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module forward_kinematics (
     input signed [15:0] theta1,
     input signed [15:0] theta2,
