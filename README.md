@@ -15,7 +15,8 @@ Given:
 
 The forward kinematics equations are:
 
-X = L1 * cos(θ1) + L2 * cos(θ1 + θ2) + L3 * cos(θ1 + θ2 + θ3) Y = L1 * sin(θ1) + L2 * sin(θ1 + θ2) + L3 * sin(θ1 + θ2 + θ3)
+X = L1 * cos(θ1) + L2 * cos(θ1 + θ2) + L3 * cos(θ1 + θ2 + θ3)
+Y = L1 * sin(θ1) + L2 * sin(θ1 + θ2) + L3 * sin(θ1 + θ2 + θ3)
 
 ---
 
